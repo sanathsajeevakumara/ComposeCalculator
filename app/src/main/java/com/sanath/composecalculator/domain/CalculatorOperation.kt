@@ -1,4 +1,4 @@
-package com.sanath.composecalculator
+package com.sanath.composecalculator.domain
 
 sealed class CalculatorOperation(val symbol: String) {
     object Add: CalculatorOperation("+")

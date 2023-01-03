@@ -1,4 +1,4 @@
-package com.sanath.composecalculator
+package com.sanath.composecalculator.domain
 
 sealed class CalculatorAction {
     data class Number(val number: Int): CalculatorAction()

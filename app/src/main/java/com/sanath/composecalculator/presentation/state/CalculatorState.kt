@@ -1,4 +1,6 @@
-package com.sanath.composecalculator
+package com.sanath.composecalculator.presentation.state
+
+import com.sanath.composecalculator.domain.CalculatorOperation
 
 data class CalculatorState(
     val number1: String = "",

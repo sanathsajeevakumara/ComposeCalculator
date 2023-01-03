@@ -1,9 +1,12 @@
-package com.sanath.composecalculator
+package com.sanath.composecalculator.presentation.viewModel
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import com.sanath.composecalculator.domain.CalculatorAction
+import com.sanath.composecalculator.domain.CalculatorOperation
+import com.sanath.composecalculator.presentation.state.CalculatorState
 
 
 class CalculatorViewModel: ViewModel() {

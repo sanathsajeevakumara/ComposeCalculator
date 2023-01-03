@@ -12,6 +12,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.sanath.composecalculator.domain.CalculatorAction
+import com.sanath.composecalculator.domain.CalculatorOperation
+import com.sanath.composecalculator.presentation.state.CalculatorState
 import com.sanath.composecalculator.ui.theme.Orange
 
 @Composable
